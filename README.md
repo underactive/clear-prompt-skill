@@ -15,7 +15,7 @@ CLEAR is a [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill t
 ### Option A: Plugin install (recommended)
 
 ```bash
-claude plugin install https://github.com/esison/clear-prompt-skill
+claude plugin install https://github.com/underactive/clear-prompt-skill
 ```
 
 Claude Code will download the repo and register the `/clear-prompt` slash command.
@@ -25,7 +25,7 @@ Claude Code will download the repo and register the `/clear-prompt` slash comman
 Clone the repo into your Claude Code skills directory:
 
 ```bash
-git clone https://github.com/esison/clear-prompt-skill.git ~/.claude/skills/clear-prompt
+git clone https://github.com/underactive/clear-prompt-skill ~/.claude/skills/clear-prompt
 ```
 
 ### Option C: Project-level install
@@ -35,7 +35,7 @@ Add it to a specific project so all contributors have access:
 ```bash
 # From your project root
 mkdir -p .claude/skills
-git clone https://github.com/esison/clear-prompt-skill.git .claude/skills/clear-prompt
+git clone https://github.com/underactive/clear-prompt-skill .claude/skills/clear-prompt
 ```
 
 ## Usage
