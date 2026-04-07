@@ -17,6 +17,7 @@ CLEAR is a [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill t
 Clone the repo into your Claude Code skills directory:
 
 ```bash
+mkdir -p ~/.claude/skills
 git clone https://github.com/underactive/clear-prompt-skill ~/.claude/skills/clear-prompt
 ```
 
@@ -79,12 +80,10 @@ This produces four separate CLEAR prompts you can run in order, each with its ow
 
 ```
 clear-prompt-skill/
+├── SKILL.md                    # The skill definition
 ├── claude-plugin.json          # Plugin manifest for `claude plugin install`
 ├── README.md
-├── LICENSE
-└── skills/
-    └── clear-prompt/
-        └── SKILL.md            # The skill definition
+└── LICENSE
 ```
 
 ## Uninstall
