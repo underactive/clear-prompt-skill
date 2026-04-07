@@ -1,0 +1,6 @@
+{
+  "name": "clear-prompt",
+  "version": "1.0.0",
+  "description": "CLEAR framework for writing better AI prompts — Clear and scoped, Logical structure, Explicit constraints, Auditable (easy to verify), Reproducible results.",
+  "skills": ["clear-prompt"]
+}
